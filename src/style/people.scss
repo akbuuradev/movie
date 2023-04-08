@@ -1,0 +1,23 @@
+#people {
+  padding: 80px 0;
+  background: white;
+  .people {
+    &--card {
+      display: flex;
+      &__name {
+        color: black;
+        padding-left: 120px;
+        h2 {
+          padding: 10px 0;
+        }
+        h3 {
+          padding: 10px 0;
+        }
+        h5 {
+          cursor: pointer;
+          color: blue;
+        }
+      }
+      }
+  }
+}
